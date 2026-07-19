@@ -29,9 +29,6 @@ CustomMouseArea {
     implicitHeight: inner.implicitHeight + inner.anchors.margins * 2
 
     acceptedButtons: Qt.MiddleButton
-
-    scale: 0.92
-    transformOrigin: Item.Center
     onClicked: root.dashState.currentDate = new Date()
 
     ColumnLayout {
@@ -64,7 +61,7 @@ CustomMouseArea {
                     anchors.centerIn: parent
                     text: "chevron_left"
                     color: Colours.palette.m3tertiary
-                    font.pointSize: Tokens.font.size.normal
+                    font.pointSize: Tokens.font.size.small
                     font.weight: 700
                 }
             }
@@ -98,7 +95,7 @@ CustomMouseArea {
                     anchors.centerIn: parent
                     text: grid.title
                     color: Colours.palette.m3primary
-                    font.pointSize: Tokens.font.size.normal
+                    font.pointSize: Tokens.font.size.small
                     font.weight: 500
                     font.capitalization: Font.Capitalize
                 }
@@ -124,7 +121,7 @@ CustomMouseArea {
                     anchors.centerIn: parent
                     text: "chevron_right"
                     color: Colours.palette.m3tertiary
-                    font.pointSize: Tokens.font.size.normal
+                    font.pointSize: Tokens.font.size.small
                     font.weight: 700
                 }
             }
@@ -184,7 +181,7 @@ CustomMouseArea {
                             return Colours.palette.m3onSurfaceVariant;
                         }
                         opacity: dayItem.model.today || dayItem.model.month === grid.month ? 1 : 0.4
-                        font.pointSize: Tokens.font.size.normal
+                        font.pointSize: Tokens.font.size.small
                         font.weight: 500
                     }
                 }

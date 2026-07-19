@@ -11,7 +11,7 @@ Row {
     anchors.bottom: parent.bottom
 
     padding: Tokens.padding.large
-    spacing: Tokens.spacing.large
+    spacing: Tokens.spacing.normal
 
     Ref {
         service: SystemUsage
@@ -44,18 +44,16 @@ Row {
 
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        anchors.margins: Tokens.padding.normal
-        implicitWidth: Math.max(42, progressBg.implicitWidth, percentLabel.implicitWidth, iconLabel.implicitWidth)
+        anchors.margins: Tokens.padding.large
+        implicitWidth: icon.implicitWidth
 
         StyledRect {
-            id: progressBg
-
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.bottom: iconLabel.top
+            anchors.bottom: icon.top
             anchors.bottomMargin: Tokens.spacing.small
 
-            implicitWidth: Tokens.sizes.dashboard.resourceProgressThickness + 18
+            implicitWidth: Tokens.sizes.dashboard.resourceProgressThickness
 
             color: Colours.layer(Colours.palette.m3surfaceContainerHigh, 2)
             radius: Tokens.rounding.full
@@ -72,27 +70,12 @@ Row {
         }
 
         MaterialIcon {
-            id: iconLabel
+            id: icon
 
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: percentLabel.top
-            anchors.bottomMargin: 4
+            anchors.bottom: parent.bottom
 
             text: res.icon
             color: res.colour
-            font.pointSize: Tokens.font.size.normal + 1
-        }
-
-        StyledText {
-            id: percentLabel
-
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-
-            text: Math.round(res.value * 100) + "%"
-            color: Colours.palette.m3onSurfaceVariant
-            font.pointSize: Tokens.font.size.normal
-            font.weight: 600
         }
 
         Behavior on value {

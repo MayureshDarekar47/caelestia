@@ -59,7 +59,7 @@ Singleton {
                     props.paused = !props.paused;
                 }
             } else if (root.needsStart) {
-                Quickshell.execDetached(["/home/mayuresh/.config/hypr/scripts/caelestia-wf-record.sh", ...root.startArgs]);
+                Quickshell.execDetached(["/home/mayuresh/.config/hypr/scripts/caelestia-wf-record.sh"]);
                 props.running = true;
                 props.paused = false;
                 props.elapsed = 0;

@@ -63,7 +63,7 @@ ColumnLayout {
                 Layout.fillWidth: true
 
                 animate: true
-                text: qsTr("Temperature: %1").arg(Weather.temp)
+                text: qsTr("Humidity: %1%").arg(Weather.humidity)
                 color: Colours.palette.m3onSurfaceVariant
                 font.pointSize: Tokens.font.size.normal
                 elide: Text.ElideRight
@@ -159,7 +159,7 @@ ColumnLayout {
 
                     StyledText {
                         Layout.alignment: Qt.AlignHCenter
-                        text: false ? `${forecastHour.modelData?.tempF ?? 0}°F` : `${forecastHour.modelData?.tempC ?? 0}°C`
+                        text: GlobalConfig.services.useFahrenheit ? `${forecastHour.modelData?.tempF ?? 0}°F` : `${forecastHour.modelData?.tempC ?? 0}°C`
                         color: Colours.palette.m3secondary
                         font.pointSize: Tokens.font.size.larger
                     }

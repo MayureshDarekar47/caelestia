@@ -13,7 +13,8 @@ Row {
     required property DrawerVisibilities visibilities
     required property FileDialog facePicker
 
-    // ===== USER PHOTO/TEXT CONTROL - values come from Dash.qml =====
+    // ===== USER CARD ADJUSTMENT =====
+    // Yaha se photo aur text adjust kar
     property int profilePhotoSize: 155
     property int profileInfoWidth: 260
     property int profileGap: 28

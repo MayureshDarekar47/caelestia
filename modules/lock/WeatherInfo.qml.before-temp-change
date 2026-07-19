@@ -63,7 +63,7 @@ ColumnLayout {
                 Layout.fillWidth: true
 
                 animate: true
-                text: qsTr("Temperature: %1").arg(Weather.temp)
+                text: qsTr("Humidity: %1%").arg(Weather.humidity)
                 color: Colours.palette.m3onSurfaceVariant
                 font.pointSize: Tokens.font.size.normal
                 elide: Text.ElideRight

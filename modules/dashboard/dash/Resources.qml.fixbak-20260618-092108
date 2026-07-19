@@ -11,7 +11,7 @@ Row {
     anchors.bottom: parent.bottom
 
     padding: Tokens.padding.large
-    spacing: Tokens.spacing.large
+    spacing: Tokens.spacing.normal
 
     Ref {
         service: SystemUsage
@@ -45,7 +45,7 @@ Row {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         anchors.margins: Tokens.padding.normal
-        implicitWidth: Math.max(42, progressBg.implicitWidth, percentLabel.implicitWidth, iconLabel.implicitWidth)
+        implicitWidth: Math.max(progressBg.implicitWidth, percentLabel.implicitWidth, iconLabel.implicitWidth)
 
         StyledRect {
             id: progressBg
@@ -55,7 +55,7 @@ Row {
             anchors.bottom: iconLabel.top
             anchors.bottomMargin: Tokens.spacing.small
 
-            implicitWidth: Tokens.sizes.dashboard.resourceProgressThickness + 18
+            implicitWidth: Tokens.sizes.dashboard.resourceProgressThickness + 8
 
             color: Colours.layer(Colours.palette.m3surfaceContainerHigh, 2)
             radius: Tokens.rounding.full
@@ -91,7 +91,7 @@ Row {
 
             text: Math.round(res.value * 100) + "%"
             color: Colours.palette.m3onSurfaceVariant
-            font.pointSize: Tokens.font.size.normal
+            font.pointSize: Tokens.font.size.small
             font.weight: 600
         }
 

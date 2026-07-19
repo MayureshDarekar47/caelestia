@@ -45,21 +45,21 @@ Singleton {
         id: checkProc
 
         running: true
-        command: ["pidof", "wf-recorder"]
+        command: ["pidof", "gpu-screen-recorder"]
         onExited: code => { // qmllint disable signal-handler-parameters
             props.running = code === 0;
 
             if (code === 0) {
                 if (root.needsStop) {
-                    Quickshell.execDetached(["/home/mayuresh/.config/hypr/scripts/caelestia-wf-record.sh"]);
+                    Quickshell.execDetached(["caelestia", "record"]);
                     props.running = false;
                     props.paused = false;
                 } else if (root.needsPause) {
-                    Quickshell.execDetached(["/home/mayuresh/.config/hypr/scripts/caelestia-wf-record.sh"]);
+                    Quickshell.execDetached(["caelestia", "record", "-p"]);
                     props.paused = !props.paused;
                 }
             } else if (root.needsStart) {
-                Quickshell.execDetached(["/home/mayuresh/.config/hypr/scripts/caelestia-wf-record.sh", ...root.startArgs]);
+                Quickshell.execDetached(["caelestia", "record", ...root.startArgs]);
                 props.running = true;
                 props.paused = false;
                 props.elapsed = 0;

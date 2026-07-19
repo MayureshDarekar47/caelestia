@@ -13,18 +13,13 @@ Row {
     required property DrawerVisibilities visibilities
     required property FileDialog facePicker
 
-    // ===== USER PHOTO/TEXT CONTROL - values come from Dash.qml =====
-    property int profilePhotoSize: 155
-    property int profileInfoWidth: 260
-    property int profileGap: 28
-
     padding: Tokens.padding.large
-    spacing: root.profileGap
+    spacing: Tokens.spacing.large
 
     StyledClippingRect {
         // Profile photo size - change 145 to bigger/smaller
-        implicitWidth: root.profilePhotoSize
-        implicitHeight: root.profilePhotoSize
+        implicitWidth: 170
+        implicitHeight: 170
 
         radius: Tokens.rounding.large
         color: Colours.layer(Colours.palette.m3surfaceContainerHigh, 2)
@@ -140,7 +135,7 @@ Row {
                 text: `:  ${SysInfo.osPrettyName || SysInfo.osName}`
                 font.pointSize: Tokens.font.size.normal
 
-                width: root.profileInfoWidth
+                width: Tokens.sizes.dashboard.infoWidth
                 elide: Text.ElideRight
             }
         }
@@ -191,7 +186,7 @@ Row {
             text: `:  ${line.text}`
             font.pointSize: Tokens.font.size.normal
 
-            width: root.profileInfoWidth
+            width: Tokens.sizes.dashboard.infoWidth
             elide: Text.ElideRight
         }
     }
