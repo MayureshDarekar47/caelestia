@@ -1,3 +1,4 @@
+#<<<<<<< HEAD
 # Secrets / credentials
 .env
 .env.*
@@ -20,3 +21,11 @@
 .DS_Store
 Thumbs.db
 *~
+=======
+.direnv
+/result
+/.qmlls.ini
+build/
+.cache/
+logs
+#>>>>>>> adb306f3c4f1e5a16838095116691ce0ae10236e
