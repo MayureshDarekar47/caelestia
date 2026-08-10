@@ -1,0 +1,20 @@
+background {
+    monitor =
+    color = rgba(1a1a1aff)
+}
+
+input-field {
+    monitor =
+    size = 300, 50
+    position = 0, -80
+    dots_center = true
+    fade_on_empty = false
+    placeholder_text = Password...
+}
+
+label {
+    monitor =
+    text = $USER
+    position = 0, 80
+    font_size = 24
+}
