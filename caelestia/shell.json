@@ -1,0 +1,159 @@
+{
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0.956828025714853
+            }
+        },
+        "font": {
+            "family": {
+                "clock": "Rubik",
+                "material": "Material Symbols Rounded",
+                "mono": "CaskaydiaCove NF",
+                "sans": "Rubik"
+            },
+            "size": {
+                "scale": 0.9376810884886452
+            }
+        },
+        "padding": {
+            "scale": 0.8536593945771338
+        },
+        "rounding": {
+            "scale": 1.3223769699490995
+        },
+        "spacing": {
+            "scale": 0.26161902897415823
+        },
+        "transparency": {
+            "base": 0.8931333202819105,
+            "enabled": true,
+            "layers": 0.6802870497259199
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "background": {
+                "enabled": true,
+                "opacity": 0.7040312764606265
+            },
+            "enabled": false,
+            "invertColors": false,
+            "position": "top-center",
+            "shadow": {
+                "blur": 0.3426964470954357,
+                "enabled": true,
+                "opacity": 0.8066125105842505
+            }
+        },
+        "enabled": true,
+        "visualiser": {
+            "enabled": false,
+            "rounding": 2,
+            "spacing": 1.1289714058776807
+        },
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": false,
+            "inverted": false
+        },
+        "clock": {
+            "background": true,
+            "showDate": true,
+            "showIcon": true
+        },
+        "dragThreshold": 18,
+        "excludedScreens": [
+        ],
+        "persistent": false,
+        "popouts": {
+            "activeWindow": true,
+            "statusIcons": true,
+            "tray": true
+        },
+        "scrollActions": {
+            "brightness": true,
+            "volume": true,
+            "workspaces": true
+        },
+        "showOnHover": true,
+        "status": {
+            "showAudio": false,
+            "showKbLayout": false,
+            "showMicrophone": false
+        },
+        "tray": {
+            "background": false,
+            "compact": false,
+            "recolour": false
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "maxWindowIcons": 5,
+            "occupiedBg": false,
+            "perMonitorWorkspaces": true,
+            "showWindows": true,
+            "shown": 5
+        }
+    },
+    "border": {
+        "rounding": 7,
+        "thickness": 0
+    },
+    "dashboard": {
+        "dragThreshold": 26,
+        "enabled": true,
+        "mediaUpdateInterval": 600,
+        "performance": {
+            "showBattery": true
+        },
+        "resourceUpdateInterval": 1600,
+        "showDashboard": true,
+        "showMedia": true,
+        "showPerformance": true
+    },
+    "enabled": true,
+    "general": {
+        "apps": {
+            "audio": [
+                "pavucontrol"
+            ],
+            "explorer": [
+                "thunar"
+            ],
+            "playback": [
+                "mpv"
+            ],
+            "terminal": [
+                "foot"
+            ]
+        }
+    },
+    "launcher": {
+        "enableDangerousActions": false,
+        "enabled": true,
+        "showOnHover": true,
+        "vimKeybinds": true
+    },
+    "notifs": {
+        "expire": true
+    },
+    "paths": {
+        "wallpaperDir": "~/Pictures/Wallpapers"
+    },
+    "services": {
+        "audioIncrement": 5,
+        "brightnessIncrement": 5,
+        "maxVolume": 150,
+        "showLyrics": false,
+        "useTwelveHourClock": false
+    },
+    "utilities": {
+        "toasts": {
+            "chargingChanged": true,
+            "numLockChanged": true
+        }
+    }
+}

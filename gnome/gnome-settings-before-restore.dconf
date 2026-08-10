@@ -1,0 +1,348 @@
+[Ptyxis]
+default-profile-uuid='68b8c3fd25544662221622de6a11e4f9'
+font-name='Monospace 14.289'
+interface-style='dark'
+profile-uuids=['68b8c3fd25544662221622de6a11e4f9']
+use-system-font=false
+window-size=(uint32 173, uint32 43)
+
+[Ptyxis/Profiles/68b8c3fd25544662221622de6a11e4f9]
+palette='xterm'
+
+[control-center]
+last-panel='display'
+window-state=(980, 640, true)
+
+[desktop/a11y/magnifier]
+cross-hairs-length=58
+
+[desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/System]
+apps=['nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'im-config.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Sysprof.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['org.gnome.Papers.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop']
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/mayuresh/.local/share/backgrounds/2026-05-27-18-11-16-wp4898251-kali-linux-desktop-wallpapers.jpg'
+picture-uri-dark='file:///home/mayuresh/.local/share/backgrounds/2026-05-27-18-11-16-wp4898251-kali-linux-desktop-wallpapers.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/calendar]
+show-weekdate=false
+week-start-day='default'
+
+[desktop/datetime]
+automatic-timezone=true
+
+[desktop/input-sources]
+sources=[('xkb', 'us')]
+
+[desktop/interface]
+accent-color='blue'
+clock-format='12h'
+clock-show-date=true
+clock-show-seconds=false
+clock-show-weekday=false
+color-scheme='prefer-dark'
+cursor-theme='Yaru'
+enable-animations=true
+enable-hot-corners=false
+gtk-enable-primary-paste=false
+gtk-theme='WhiteSur-Dark-solid'
+icon-theme='Yaru-blue-dark'
+
+[desktop/notifications]
+application-children=['org-gnome-ptyxis', 'snapd-desktop-integration-snapd-desktop-integration', 'com-mattjakeman-extensionmanager', 'firefox-firefox', 'org-gnome-characters', 'google-chrome']
+
+[desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
+
+[desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[desktop/notifications/application/org-gnome-characters]
+application-id='org.gnome.Characters.desktop'
+
+[desktop/notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
+[desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
+application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
+
+[desktop/peripherals/keyboard]
+numlock-state=true
+
+[desktop/peripherals/mouse]
+left-handed=false
+speed=-0.14166666666666672
+
+[desktop/peripherals/touchpad]
+edge-scrolling-enabled=false
+natural-scroll=true
+speed=0.22500000000000009
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+report-technical-problems=false
+
+[desktop/screensaver]
+color-shading-type='solid'
+lock-delay=uint32 0
+picture-options='zoom'
+picture-uri='file:///home/mayuresh/.local/share/backgrounds/2026-05-27-18-11-16-wp4898251-kali-linux-desktop-wallpapers.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[desktop/session]
+idle-delay=uint32 300
+
+[desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+
+[evolution-data-server]
+migrated=true
+
+[mutter]
+edge-tiling=false
+workspaces-only-on-primary=false
+
+[mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[nautilus/preferences]
+migrated-gtk-settings=true
+
+[nautilus/window-state]
+initial-size=(890, 550)
+initial-size-file-chooser=(890, 550)
+maximized=true
+
+[portal/filechooser/com.google.Chrome]
+last-folder-path='/home/mayuresh/Downloads'
+
+[portal/filechooser/org.gnome.Settings]
+last-folder-path='/home/mayuresh/Wallpaper'
+
+[settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-last-coordinates=(19.072304041523488, 72.877700000000004)
+night-light-temperature=uint32 3700
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+reboot=['<Shift><Super>r']
+shutdown=@as []
+terminal=['<Control><Alt>t']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Shift><Super>s'
+command='shutdown now'
+name='PowerOff'
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[shell]
+app-picker-layout=[{'org.gnome.Calculator.desktop': <{'position': <0>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <1>}>, 'gnome-language-selector.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'net.nokyan.Resources.desktop': <{'position': <4>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <5>}>, 'update-manager.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.TextEditor.desktop': <{'position': <8>}>, 'org.gnome.Characters.desktop': <{'position': <9>}>, 'Utilities': <{'position': <10>}>, 'System': <{'position': <11>}>, 'org.gnome.Yelp.desktop': <{'position': <12>}>}]
+command-history=['r']
+disabled-extensions=@as []
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'dash-to-dock@micxgx.gmail.com', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'Vitals@CoreCoding.com', 'just-perfection-desktop@just-perfection', 'blur-my-shell@aunetx', 'wack-lockscreen-clock@rinzler69-wastaken.github.com']
+favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'snap-store_snap-store.desktop', 'google-chrome.desktop', 'code_code.desktop', 'org.gnome.Ptyxis.desktop']
+welcome-dialog-last-shown-version='50.1'
+
+[shell/extensions/blur-my-shell]
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}}
+rounded-blur-found=false
+settings-version=2
+
+[shell/extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/blur-my-shell/applications]
+blur=false
+brightness=1.0
+corner-when-maximized=false
+dynamic-opacity=false
+enable-all=true
+opacity=224
+pipeline='pipeline_default'
+sigma=100
+static-blur=true
+
+[shell/extensions/blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=1.0
+pipeline='pipeline_default_rounded'
+sigma=21
+static-blur=false
+style-dash-to-dock=0
+
+[shell/extensions/blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+corner-radius=0
+pipeline='pipeline_default'
+sigma=30
+static-blur=true
+
+[shell/extensions/blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[shell/extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[shell/extensions/dash-to-dock]
+always-center-icons=true
+apply-custom-theme=false
+background-opacity=0.80000000000000004
+custom-theme-shrink=true
+customize-alphas=true
+dash-max-icon-size=42
+disable-overview-on-startup=true
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+height-fraction=0.90000000000000002
+isolate-workspaces=false
+max-alpha=0.65000000000000002
+min-alpha=0.11
+multi-monitor=false
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+running-indicator-style='DOTS'
+show-mounts=false
+show-mounts-network=false
+show-mounts-only-mounted=true
+show-trash=false
+transparency-mode='DYNAMIC'
+
+[shell/extensions/ding]
+check-x11wayland=true
+show-home=false
+
+[shell/extensions/just-perfection]
+accent-color-icon=false
+accessibility-menu=true
+background-menu=true
+controls-manager-spacing-size=0
+dash=true
+dash-icon-size=0
+double-super-to-appgrid=true
+invert-calendar-column-items=false
+notification-banner-position=1
+osd=true
+panel=true
+panel-in-overview=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
+support-notifier-type=0
+theme=false
+window-demands-attention-focus=false
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-popup=true
+workspaces-in-app-grid=true
+
+[shell/extensions/ncom/github/hermes83/compiz-alike-magic-lamp-effect]
+duration=578.0
+effect='default'
+x-tiles=7.0
+y-tiles=4.0
+
+[shell/extensions/tiling-assistant]
+activate-layout0=@as []
+activate-layout1=@as []
+activate-layout2=@as []
+activate-layout3=@as []
+auto-tile=@as []
+center-window=@as []
+debugging-free-rects=@as []
+debugging-show-tiled-rects=@as []
+default-move-mode=0
+dynamic-keybinding-behavior=0
+focus-hint=0
+focus-hint-color='rgb(203,67,20)'
+import-layout-examples=false
+last-version-installed=54
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+restore-window=['<Super>Down']
+search-popup-layout=@as []
+single-screen-gap=0
+tile-bottom-half=['<Super>KP_2']
+tile-bottom-half-ignore-ta=@as []
+tile-bottomleft-quarter=['<Super>KP_1']
+tile-bottomleft-quarter-ignore-ta=@as []
+tile-bottomright-quarter=['<Super>KP_3']
+tile-bottomright-quarter-ignore-ta=@as []
+tile-edit-mode=@as []
+tile-left-half=['<Super>Left', '<Super>KP_4']
+tile-left-half-ignore-ta=@as []
+tile-maximize=['<Super>Up', '<Super>KP_5']
+tile-maximize-horizontally=@as []
+tile-maximize-vertically=@as []
+tile-right-half=['<Super>Right', '<Super>KP_6']
+tile-right-half-ignore-ta=@as []
+tile-top-half=['<Super>KP_8']
+tile-top-half-ignore-ta=@as []
+tile-topleft-quarter=['<Super>KP_7']
+tile-topleft-quarter-ignore-ta=@as []
+tile-topright-quarter=['<Super>KP_9']
+tile-topright-quarter-ignore-ta=@as []
+tiling-popup-all-workspace=true
+toggle-always-on-top=@as []
+toggle-tiling-popup=@as []
+window-gap=0
+
+[shell/extensions/vitals]
+hot-sensors=['_memory_usage_', '__network-rx_max__', '__temperature_avg__']
+icon-style=1
+menu-centered=false
+position-in-panel=2
+show-battery=true
+use-higher-precision=true
+
+[shell/world-clocks]
+locations=@av []
+
+[system/location]
+enabled=true

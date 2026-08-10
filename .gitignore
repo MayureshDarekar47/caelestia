@@ -1,0 +1,22 @@
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*password*
+*token*
+
+# Git repositories copied accidentally
+.git/
+.git-*/
+
+# Runtime / temporary files
+*.log
+*.tmp
+*.cache
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*~

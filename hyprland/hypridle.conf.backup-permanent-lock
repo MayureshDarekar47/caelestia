@@ -1,0 +1,9 @@
+general {
+    lock_cmd = caelestia shell lock lock
+    before_sleep_cmd = caelestia shell lock lock
+}
+
+listener {
+    timeout = 300
+    on-timeout = caelestia shell lock lock
+}

@@ -1,0 +1,16 @@
+{
+  "name": "WACK - Sonoma Lockscreen",
+  "description": "macOS Sonoma-inspired lock screen for GNOME Shell. Part of the WACK Project.",
+  "uuid": "wack-lockscreen-clock@rinzler69-wastaken.github.com",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "session-modes": [
+    "unlock-dialog"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.wack-lockscreen-clock",
+  "url": "https://github.com/rinzler69-wastaken/wack-sonoma-lockscreen",
+  "version": 1
+}
