@@ -1,0 +1,409 @@
+general {
+    hide_cursor = true
+    immediate_render = true
+}
+
+background {    background {
+    monitor =
+    path = screenshot
+    color = rgba(17, 17, 17, 1.0)
+
+    blur_passes = 3
+    blur_size = 8
+    noise = 0.0117
+    contrast = 0.8916
+    brightness = 0.8172
+    vibrancy = 0.1696
+    vibrancy_darkness = 0.05
+}
+ 
+shape {
+    monitor =
+    size = 430, 590
+    color = rgba(18, 18, 18, 0.52)
+    rounding = 28
+    border_color = rgba(255, 255, 255, 0.08)
+    position = -520, 0
+    halign = center
+    valign = center
+}
+
+
+label {
+    monitor =
+    text = Weather
+    color = rgba(255, 190, 205, 0.95)
+    font_size = 34
+    font_family = JetBrains Mono
+    position = -625, 235
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = ☁
+    color = rgba(245, 230, 235, 0.92)
+    font_size = 70
+    font_family = JetBrains Mono
+    position = -725, 155
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:900000] /home/mayuresh/.config/hypr/scripts/lock-weather.sh
+    color = rgba(255, 235, 240, 0.95)
+    font_size = 28
+    font_family = JetBrains Mono
+    position = -590, 170
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:900000] /home/mayuresh/.config/hypr/scripts/lock-humidity.sh
+    color = rgba(220, 210, 215, 0.80)
+    font_size = 16
+    font_family = JetBrains Mono
+    position = -580, 135
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = > system-info
+    color = rgba(230, 210, 215, 0.85)
+    font_size = 17
+    font_family = JetBrains Mono
+    position = -610, 55
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = WM   : Hyprland
+    color = rgba(245, 235, 240, 0.90)
+    font_size = 16
+    font_family = JetBrains Mono
+    position = -570, -20
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:60000] echo "USER : $(whoami)"
+    color = rgba(245, 235, 240, 0.90)
+    font_size = 16
+    font_family = JetBrains Mono
+    position = -570, -52
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:30000] /home/mayuresh/.config/hypr/scripts/lock-battery.sh
+    color = rgba(245, 235, 240, 0.90)
+    font_size = 16
+    font_family = JetBrains Mono
+    position = -570, -84
+    halign = center
+    valign = center
+}
+
+shape {
+    monitor =
+    size = 35, 35
+    color = rgba(220, 100, 75, 0.90)
+    rounding = 9
+    position = -705, -150
+    halign = center
+    valign = center
+}
+
+shape {
+    monitor =
+    size = 35, 35
+    color = rgba(230, 220, 205, 0.90)
+    rounding = 9
+    position = -655, -150
+    halign = center
+    valign = center
+}
+
+shape {
+    monitor =
+    size = 35, 35
+    color = rgba(220, 220, 205, 0.90)
+    rounding = 9
+    position = -605, -150
+    halign = center
+    valign = center
+}
+
+shape {
+    monitor =
+    size = 35, 35
+    color = rgba(210, 210, 180, 0.90)
+    rounding = 9
+    position = -555, -150
+    halign = center
+    valign = center
+}
+
+shape {
+    monitor =
+    size = 35, 35
+    color = rgba(230, 200, 210, 0.90)
+    rounding = 9
+    position = -505, -150
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = Now playing
+    color = rgba(210, 200, 205, 0.75)
+    font_size = 16
+    font_family = JetBrains Mono
+    position = -640, -230
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:5000] /home/mayuresh/.config/hypr/scripts/lock-media.sh
+    color = rgba(255, 245, 248, 0.92)
+    font_size = 28
+    font_family = JetBrains Mono
+    position = -610, -280
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:1000] date +"%I:%M %p"
+    color = rgba(255, 240, 245, 1.0)
+    font_size = 72
+    font_family = JetBrains Mono
+    position = 0, 170
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:60000] date +"%A, %d %B %Y"
+    color = rgba(255, 240, 245, 0.95)
+    font_size = 26
+    font_family = JetBrains Mono
+    position = 0, 95
+    halign = center
+    valign = center
+}
+
+image {
+    monitor =
+    path = /home/mayuresh/.face
+    size = 135
+    rounding = -1
+    border_size = 0
+    position = 0, -40
+    halign = center
+    valign = center
+}
+
+input-field {
+    monitor =
+    size = 460, 55
+    outline_thickness = 0
+    dots_size = 0.22
+    dots_spacing = 0.25
+    dots_center = true
+    outer_color = rgba(255, 255, 255, 0.08)
+    inner_color = rgba(25, 25, 25, 0.55)
+    font_color = rgba(255, 245, 248, 1.0)
+    placeholder_text = Enter your password
+    hide_input = false
+    fade_on_empty = false
+    rounding = 14
+    position = 0, -185
+    halign = center
+    valign = center
+}
+
+
+
+
+
+label {
+    monitor =
+    text = Notifications
+    color = rgba(215, 200, 210, 0.75)
+    font_size = 18
+    font_family = JetBrains Mono
+    position = 540, -135
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = No Notifications
+    color = rgba(210, 200, 205, 0.70)
+    font_size = 28
+    font_family = JetBrains Mono
+    position = 555, -260
+    halign = center
+    valign = center
+}
+
+# CLEAN_RING_WIDGETS_START
+
+# Top-left ring (RAM)
+image {
+    monitor =
+    path = /home/mayuresh/.config/hypr/assets/lock-rings/ram.png
+    size = 170
+    rounding = -1
+    border_size = 0
+    position = 470, 185
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = ⚙
+    color = rgba(255, 220, 225, 0.96)
+    font_size = 54
+    font_family = JetBrains Mono
+    position = 470, 185
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:5000] /home/mayuresh/.config/hypr/scripts/ring-ram-value.sh
+    color = rgba(255, 235, 240, 1.0)
+    font_size = 26
+    font_family = JetBrains Mono
+    position = 470, 92
+    halign = center
+    valign = center
+}
+
+# Top-right ring (TEMP)
+image {
+    monitor =
+    path = /home/mayuresh/.config/hypr/assets/lock-rings/temp.png
+    size = 170
+    rounding = -1
+    border_size = 0
+    position = 655, 185
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = 
+    color = rgba(255, 220, 225, 0.96)
+    font_size = 54
+    font_family = JetBrains Mono
+    position = 655, 185
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:900000] /home/mayuresh/.config/hypr/scripts/ring-temp-value.sh
+    color = rgba(255, 235, 240, 1.0)
+    font_size = 26
+    font_family = JetBrains Mono
+    position = 655, 92
+    halign = center
+    valign = center
+}
+
+# Bottom-left ring (Brightness)
+image {
+    monitor =
+    path = /home/mayuresh/.config/hypr/assets/lock-rings/bri.png
+    size = 170
+    rounding = -1
+    border_size = 0
+    position = 470, 0
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = ▣
+    color = rgba(255, 220, 225, 0.96)
+    font_size = 50
+    font_family = JetBrains Mono
+    position = 470, 0
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:3000] /home/mayuresh/.config/hypr/scripts/ring-brightness-value.sh
+    color = rgba(255, 235, 240, 1.0)
+    font_size = 26
+    font_family = JetBrains Mono
+    position = 470, -92
+    halign = center
+    valign = center
+}
+
+# Bottom-right ring (Volume)
+image {
+    monitor =
+    path = /home/mayuresh/.config/hypr/assets/lock-rings/vol.png
+    size = 170
+    rounding = -1
+    border_size = 0
+    position = 655, 0
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = ▯
+    color = rgba(255, 220, 225, 0.96)
+    font_size = 54
+    font_family = JetBrains Mono
+    position = 655, 0
+    halign = center
+    valign = center
+}
+
+label {
+    monitor =
+    text = cmd[update:3000] /home/mayuresh/.config/hypr/scripts/ring-volume-value.sh
+    color = rgba(255, 235, 240, 1.0)
+    font_size = 26
+    font_family = JetBrains Mono
+    position = 655, -92
+    halign = center
+    valign = center
+}
+
+# CLEAN_RING_WIDGETS_END
+
