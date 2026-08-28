@@ -296,23 +296,8 @@ EOF
 }
 
 
+
 #pendrive shotcut
-#pendrive() {
-#    local dev="/dev/sda1"
-#   local mountpoint="/run/media/$USER/WINRE_DR"
-
-#    if [ ! -b "$dev" ]; then
-#        echo "Pendrive is not connected."
-#        return 1
-#    fi
-
-#    if ! mountpoint -q "$mountpoint"; then
-#        udisksctl mount -b "$dev" || return 1
-#    fi
-
-#    cd "$mountpoint" || return 1
-#    ls
-#}
 
 pendrive() {
     local label="USB"
@@ -339,4 +324,4 @@ pendrive() {
 }
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 export PATH="$HOME/bin:$PATH"
-# Test Backup
+. "/home/mayuresh/.deno/env"
