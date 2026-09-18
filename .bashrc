@@ -193,14 +193,14 @@ windows() {
 
 coding() {
     nv || return
-    cd "/run/media/$USER/New Volume/All Coding/Coding"
+    cd "/run/media/$USER/New Volume/All Coding and Portfolio/Coding"
 }
 
 
 
 cpp() {
     nv || return
-    cd "/run/media/$USER/New Volume/All Coding/Coding/C++"
+    cd "/run/media/$USER/New Volume/All Coding and Portfolio/Coding/C++"
 }
 
 
