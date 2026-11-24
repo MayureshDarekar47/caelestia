@@ -275,7 +275,7 @@ run() {
 
 
 
-#ye ik  file banane ka shortcut hai c++ 
+# it is create a file of C++ 
 newcpp() {
     if [ $# -eq 0 ]; then
         echo "Usage: newcpp <filename>"
@@ -325,3 +325,25 @@ pendrive() {
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 export PATH="$HOME/bin:$PATH"
 . "/home/mayuresh/.deno/env"
+
+
+#shot cut for website
+
+#onehub shortcut
+#alias onehub='xdg-open https://onehub-ai.vercel.app/'
+#alias onehub='google-chrome-stable https://onehub-ai.vercel.app/ &'
+alias onehub='google-chrome https://onehub-ai.vercel.app/ &'
+
+#hanuman mandir
+alias hanuman='google-chrome https://hanuman-mandir-darekarwadi.vercel.app/ &'
+
+# Music web
+alias music='google-chrome https://music-app-mayur.vercel.app/ &'
+
+#Chatgpt
+alias chatgpt='google-chrome https://chatgpt.com/ &'
+
+#conda deactivate
+
+#Antigravity Shotcut
+alias antigravity='/home/mayuresh/antigravity/antigravity-ide'
