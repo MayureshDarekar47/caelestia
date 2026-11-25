@@ -347,3 +347,7 @@ alias chatgpt='google-chrome https://chatgpt.com/ &'
 
 #Antigravity Shotcut
 alias antigravity='/home/mayuresh/antigravity/antigravity-ide'
+
+#all project (shotcut){nv dir}
+alias projects='cd "/run/media/mayuresh/New Volume/All Project"'
+
